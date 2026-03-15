@@ -1,0 +1,40 @@
+# === Python junk ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# === Virtual environments ===
+venv/
+.env
+.venv/
+
+# === Notebook metadata / cache ===
+.ipynb_checkpoints/
+
+# === IDE/editor stuff ===
+.vscode/
+*.swp
+*.bak
+
+
+
+# === Compiled files / build artifacts ===
+*.so
+*.dll
+*.exe
+*.out
+*.class
+
+# === Mac/Windows/Linux OS junk ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# App data
+data/temp/
+data/raw/
+data/processed/
+data/visuals/
+poppler-*
+*.pkl
